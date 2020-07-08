@@ -1,0 +1,18 @@
+body {
+  background: lightblue;
+  text-align: center;
+}
+
+.wrapper{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+img {
+  transform: translateX(200px); /* to move element from one position to another on the webpage */
+  transform: scaleX(.3);  /* makes it bigger or smaller, value > 1 stretches it, value between 0 & 1 shrinks it*/
+  transform: rotateX(60deg);  /* rotate along x axis */
+  transform: rotateZ(110deg);  /* rotate clockwise if value is positive */
+  transform: rotate(30deg) translate(100px, 100px) scale(1);  /* chaining */
+}
